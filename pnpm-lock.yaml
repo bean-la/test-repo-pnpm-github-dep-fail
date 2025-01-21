@@ -1,0 +1,44 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      embedded-queue:
+        specifier: github:bean-la/embedded-queue
+        version: https://codeload.github.com/bean-la/embedded-queue/tar.gz/400bf65a30068e1a5d1b3ff59f5f79d9324be9ab
+
+packages:
+
+  embedded-queue@https://codeload.github.com/bean-la/embedded-queue/tar.gz/400bf65a30068e1a5d1b3ff59f5f79d9324be9ab:
+    resolution: {tarball: https://codeload.github.com/bean-la/embedded-queue/tar.gz/400bf65a30068e1a5d1b3ff59f5f79d9324be9ab}
+    version: 0.0.4
+
+  next-tick@1.1.0:
+    resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
+
+  semaphore-async-await@1.5.1:
+    resolution: {integrity: sha512-b/ptP11hETwYWpeilHXXQiV5UJNJl7ZWWooKRE5eBIYWoom6dZ0SluCIdCtKycsMtZgKWE01/qAw6jblw1YVhg==}
+    engines: {node: '>=4.1'}
+
+  uuid@8.3.2:
+    resolution: {integrity: sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==}
+    hasBin: true
+
+snapshots:
+
+  embedded-queue@https://codeload.github.com/bean-la/embedded-queue/tar.gz/400bf65a30068e1a5d1b3ff59f5f79d9324be9ab:
+    dependencies:
+      next-tick: 1.1.0
+      semaphore-async-await: 1.5.1
+      uuid: 8.3.2
+
+  next-tick@1.1.0: {}
+
+  semaphore-async-await@1.5.1: {}
+
+  uuid@8.3.2: {}
